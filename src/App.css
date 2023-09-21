@@ -50,6 +50,10 @@ body {
   padding: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 a, a:hover, a:focus, a:active {
   text-decoration: none !important;
 
@@ -89,6 +93,9 @@ header h1, a {
 header a img:hover {
   transform: scale(1.1);
 } */
+html {
+  overflow-y: scroll;
+}
 
 .foot {
   position: relative;

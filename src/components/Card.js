@@ -36,9 +36,8 @@ const Card = ({
             alt=""
           >
             <h2>{title}</h2>
-
-            </div>
-            <h4>{type}</h4>
+          </div>
+          <h4>{type}</h4>
         </div>
         <div className="content-wrapper">
           <div className="main-content">
